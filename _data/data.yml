@@ -2,7 +2,15 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+layout:
+  show-awards-in-right-column: True # Default True to show the awards in the right columns.
+
+head:
+  show-shortcut-icon: True # Default True, set to False to hide the shourtcut icon
+
 header:
+  # Style
+  capitalize-author: True # Default True, which shows the author in capital letters
   # Profile information
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
   email: steve.doe@website.com
@@ -224,15 +232,12 @@ skills:
       - name: HTML/CSS/SASS/LESS
         level: 85%
   - category: Backend
+    show-level: False # Default true
     tools:
-      - name: Python/Django
-        level: 95%
-      - name: Ruby/Rails
-        level: 98%
-      - name: PHP
-        level: 87%
-      - name: WordPress/Shopify
-        level: 92%
+      - Python/Django
+      - Ruby/Rails
+      - PHP
+      - WordPress/Shopify
   - category: others
     tools:
       - DevOps
