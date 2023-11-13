@@ -3,32 +3,32 @@
 # Site Settings
 
 # SEO plugin
-title: My Resume
-author: Steve Doe
-tagline: Full Stack Developer # Short description for jekyll-seo-tag
-description: A beautiful Jekyll theme for creating resume # Longer description for jekyll-seo-tag
+title: Resume Esteban Casas
+author: Esteban Alberto Casas Nieto
+tagline: Senior Software Developer | Ex-Google # Short description for jekyll-seo-tag
+description: Resume Esteban Casas | Senior Software Developer | Ex-Google # Longer description for jekyll-seo-tag
 
-url: "https://fculpo.github.io"
+url: "https://ecasasni.github.io"
 baseurl: "/resume" # change it according to your repository name
 
 twitter:
-  username: stevedoe123
+  username: _ecasasni
   card: summary
 
 social:
   links:
-    - https://twitter.com/stevedoe123
-    - https://www.facebook.com/stevedoe123
-    - https://www.linkedin.com/in/stevedoe123
-    - https://github.com/stevedoe123
-    - https://keybase.io/stevedoe123
+    # - https://twitter.com/stevedoe123
+    # - https://www.facebook.com/stevedoe123
+    - https://www.linkedin.com/in/ecasasni
+    - https://github.com/ecasasni
+    # - https://keybase.io/stevedoe123
 
 google_site_verification: # Put your google verification tag here
 
 # End SEO
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: gray # gray blue turquoise green berry red
+theme_skin: blue # gray blue turquoise green berry red
 
 plugins:
   - jekyll-sitemap
