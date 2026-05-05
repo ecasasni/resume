@@ -3,169 +3,227 @@
 #
 
 layout:
-  show-awards-in-right-column: True # Default True to show the awards in the right columns.
+  show-awards-in-right-column: False # Default True to show the awards in the right columns.
 
 head:
-  show-shortcut-icon: True # Default True, set to False to hide the shourtcut icon
+  show-shortcut-icon: False # Default True, set to False to hide the shortcut icon
 
 header:
   # Style
-  capitalize-author: True # Default True, which shows the author in capital letters
+  capitalize-author: False # Default True, which shows the author in capital letters
   # Profile information
-  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-  email: steve.doe@website.com
-  phone: 0123 456 78900
-  website: https://yourwebsite.com
-  linkedin: stevedoe
-  github: stevedoe
+  avatar: profile.png # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  email: ecasasni@gmail.com
+  phone:
+  website: https://ecasasni.github.io
+  linkedin: ecasasni
+  github: ecasasni
   gitlab:
   bitbucket:
-  twitter: "@stevedoe"
+  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
 
 languages:
   - idiom: English
-    level: Native
-  - idiom: French
-    level: Professional
+    level: Bilingual Proficiency
   - idiom: Spanish
-    level: Professional
+    level: Native
 
 interests:
-  - name: Climbing
+  - name: Soccer
     link:
-  - name: Snowboarding
+  - name: Learn languages
     link:
-  - name: Cooking
+  - name: Outdoor activities
+    link:
+  - name: Competitive programming
     link:
 
 summary: |
-  Summarise your career here. You can make a PDF version of your resume using our free Sketch template here.
-  Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-  Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-  Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-  Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.
+  <p class="summary-lead mb-3">I work as a Principal Software Developer across the stack: customer-facing applications, internal platforms, and engineering tooling.</p>
+  <p class="mb-3">I was on Google’s Wear OS Messages team (Kotlin/Java), including the Pixel Watch launch. Before that I spent a lot of time on semiconductor tooling and automated test software.</p>
+  <p class="mb-0">Day to day I lean on architecture, automated tests, and performance work tied to real metrics. I also put meaningful time into mentoring through design discussions and code reviews, so quality doesn’t slip as products and teams grow.</p>
+summary_stack: "Primary strengths: C#, .NET, Avalonia and WPF/MVVM, Android (Kotlin/Java), Python, Node, and TypeScript. Most of my recent work is cross-platform desktop development for Windows, macOS, and Linux, plus tools, services, and developer productivity."
 
 education:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: BSc in Computer Science
+    university: ITESM Campus Querétaro.
+    time: 2006 - 2010
+    details:
+
 
 experiences:
-  - role: Lead Developer
-    time: 2018 - Present
-    company: Startup Hub
+  - role: Principal Software Developer
+    time: May/2025 - Present
+    company: Blue Goji (Startup)
     details: |
-      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-      Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-      Donec pede justo, fringilla vel.
-        - Bullet point
-        - Bullet point
-    achievements:
-      desc: |
-        Praesentium voluptatum deleniti atque corrupti quos dolores et quas
-        molestias excepturi sint occaecati cupiditate non provident.
-      highlights:
-        - Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.
-        - At vero eos et accusamus et iusto odio dignissimos.
-        - Blanditiis praesentium voluptatum deleniti atque corrupti.
-        - Maecenas tempus tellus eget.
+      Lead of the Platform team for the migration of GojiPlay from .NET Framework 4.7 and WPF to .NET 9 and Avalonia UI as a cross-platform application.
+        - Created architecture for the new application, including logging, dependency injection, and configuration.
+        - Added support for themes, and localization for different languages.
+        - Use AI coding assistants to accelerate development and to increase automated test coverage on new features.
+
+      Implemented the new application launcher used on Linux to start GojiPlay.
+        - Launcher component uses the same architecture, and has a shared library with the main application.
+
+      Helped with the maintenance of existing Linux tooling and applications using Node, TypeScript, JavaScript, and MySQL.
     technologies:
-      - Angular
-      - Python
-      - jQuery
-      - Webpack
-      - HTML/SASS
-      - PostgresSQL
+        - C#
+        - Avalonia UI
+        - .NET 9
+        - Node
+        - TypeScript
+        - JavaScript
+        - MySQL
+
 
   - role: Senior Software Developer
-    time: 2014 - 2018
+    time: April/2023 - May/2025
+    company: Blue Goji (Startup)
+    details: |
+      Worked in the Platform team adding features in C# and WPF for the game platform (Desktop application) used in different bikes and treadmills.
+        - Added a built-in keyboard that provides a better experience for end users.
+        - Updated the custom shell launcher, used to open the game platform, to show status messages and errors.
+        - Added logic to upload metrics, logs, and bikes information to the backend server.
+        - Added the "Bike Wizard" feature to help users configure the bike and treadmill for the first time.
+        - Added ability to let users login by scanning a QR code with their phone.
+        - Added support for dark and light themes.
+    technologies:
+      - C#
+      - WPF
+      - MVVM
+      - json
+      - Ruby
+
+
+  - role: Senior Software Engineer
+    time: May/2022 - March/2023
     company: Google
     details: |
-      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-      Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.
-    achievements:
-      desc: |
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+      Worked on the Messages application for Wear OS, which lets users send and receive messages from their smart watch while keeping data in sync with the phone application.
+        - I helped with the features for the release of the Google Pixel Watch (October 2022).
+        - Worked with UX team to fix localization issues that required changes in some strings and updates in the layout of the UI.
+        - Added performance metrics and created dashboards to help monitor the metrics.
+        - Added metrics to measure usage for messages sent by external applications.
     technologies:
-      - React
-      - Redux
-      - Django
-      - Webpack
-      - HTML/SASS
-      - MySQL
+      - Java
+      - Kotlin
+      - Android
+      - Espresso
+      - Dagger
+      - SQLite
+      - Lua
 
-  - role: Co-Founder & Lead Developer
-    time: 2012 - 2014
-    company: To-do Lists
+
+  - role: Software Tools Developer
+    time: January/2020 - May/2022
+    company: Cirrus Logic
     details: |
-      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-      Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec.
-
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes.
+      Worked with the Core team adding features in the company application, the register map application, and the internal SDK library used by developers to create UI components.
+        - Company major product
+          - Added features with a 100% test coverage.
+          - Ability to open pdf files in a named destination to provide help based on the context of the user workflow.
+          - Feature to execute python scripts from within the application.
+          - Flag to open specified documents automatically when the application was loaded.
+        - Internal SDK library
+          - Added new features to the internal SDK framework with unit tests, and snapshot tests for the UI changes.
+          - Wrote backward compatibility tests for changes in the public API so that clients can update their dependencies without API breaking issues.
+        - Register map application
+          - Redesigned the layout and improved the performance by 25% (measured in FPS).
+          - Updated the shutdown sequence reducing the time to close the application from 15 to 2 seconds for the biggest chip (100K registers).
+          - Fixed several memory leaks and added automated test for memory leaks, improving the stability of the application
+          - Updated the behavior of the search feature of the app to make it more responsive.
     technologies:
-      - Django
-      - JavaScript
-      - Node.js
-      - Require.js
-      - HTML/SASS
+      - Java
+      - JavaFx
+      - JUnit
+      - Python
+      - Gradle
+      - Gerrit
 
-  - role: Web Developer
+
+  - role: Senior Software Engineer
+    subrole:
+    time: February/2018 - January/2020
+    company: National Instruments
+    details: |
+        - Developer of the InstrumentStudio application, it allows users to configure and acquire data from hardware instruments with an easy to use UX.
+        - Designed the integration between InstrumentStudio and TestStand to let users export the hardware configuration to execute steps in their automation process for testing.
+        - Implemented the support to host applications written in LabVIEW and C# within InstrumentStudio, persisting their configuration alongside the application project when it was saved.
+          - The feature used Windows api calls to communicate between InstrumentStudio and the hosted applications.
+        - Performed code reviews and design reviews to help maintain the quality of the application.
+        - Mentored junior engineers to help them improve their design and development skills.
+    technologies:
+      - C#
+      - WPF
+      - LabVIEW
+      - Python
+      - Makefile
+
+
+  - role: Staff Software Engineer
+    subrole: Mid-level
+    time: August/2014 - February/2018
+    company: National Instruments
+    details: |
+      - Worked on several releases of the VirtualBench application for Windows and iOS with cross-platform development in C#. UI for Windows was written in WPF.
+      - Implemented the code-generation of the VirtualBench API for LabVIEW NxG in python using the same definition file used for the generation of the API for C and C#.
+    technologies:
+      - C#
+      - WPF
+      - Cross-platform development
+      - LabVIEW
+      - Python
+      - Makefile
+
+
+  - role: Software Engineer
+    subrole:
+    time: May/2011 - August/2014
+    company: National Instruments
+    details: |
+        - Worked in the version 1.0 of VirtualBench for windows which was written in C#.
+        - Worked in LabVIEW NxG (company major product), adding features to interact with myDAQ hardware.
+        - Implemented the Device Pinouts and the Data Display applications for Android using Java.
+    technologies:
+      - C#
+      - WPF
+      - LabVIEW
+      - Python
+      - Ruby
+      - Makefile
+      - Java
+
+
+  - role: Software Development Engineer
     subrole: Intern
-    time: 2011 - 2012
-    company: Amazon
+    time: May/2010 - August/2010
+    company: Microsoft
     details: |
-      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-      Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec. Fusce vulputate eleifend sapien.
-      Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.
-      Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum.
+        Worked in the Microsoft Division Business of the Office team.
+        - Developed an internal tool including planning, development, testing and deployment creating an installer as an extension for VisualStudio.
+        - The project was done with C# and the Microsoft SDK
     technologies:
-      - Ruby on Rails
-      - jQuery
-      - HTML/LESS
-      - MongoDB
+      - C#
+      - WPF
+      - Microsoft SDK
 
 awards:
-  - name: Award Name Lorem
-    description: |
-      Award desc goes here, ultricies nec, pellentesque
-      eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
-  - name: Award Name Lorem
-    description: |
-      Award desc goes here, ultricies nec, pellentesque
-      eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+  - name:
+    description: 10th place in ANTS National Programming Open (ANPA), April 2010
+  - name:
+    description: 64th place in ANTS National Programming Open (ANPA), August 2009
+  - name:
+    description: 26th place in Mexico & Central America Regional Contest ACM ICPC, November 2008
+  - name:
+    description: 2nd place in Celaya 8th National ACM Programming Contest, September 2008
+  - name:
+    description: 45th place in Mexico & Central America Regional Contest ACM ICPC, November 2007
+  - name:
+    description: 4th place in Querétaro State ACM Programming Contest, Spring 2007.
+  - name:
+    description: Recipient of Excellence Scholarship for academic merit to high school studies in the ITESM CQ, 2003
 
 # Projects are not used in this template for now
 projects:
@@ -219,33 +277,50 @@ publications:
       conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-  - category: Frontend
+  - category: Programming Languages
     tools:
-      - name: Angular
+      - name: C#
         level: 98%
-      - name: React
+      - name: Java
         level: 98%
-      - name: JavaScript
-        level: 98%
-      - name: Node.js
-        level: 95%
-      - name: HTML/CSS/SASS/LESS
-        level: 85%
-  - category: Backend
+      - name: TypeScript
+        level: 75%
+      - name: Kotlin
+        level: 75%
+      - name: Python
+        level: 75%
+      - name: Makefile
+        level: 60%
+      - name: C/C++
+        level: 50%
+      - name: PHP
+        level: 50%
+      - name: LabVIEW
+        level: 60%
+      - name: Ruby
+        level: 60%
+      - name: Perl
+        level: 60%
+  - category: Platforms (as developer)
     show-level: False # Default true
     tools:
-      - Python/Django
-      - Ruby/Rails
-      - PHP
-      - WordPress/Shopify
-  - category: others
+      - Windows
+      - Linux
+      - Mac OS
+      - Android
+      - Wear OS
+      - iOS
+  - category: Databases
+    show-level: False # Default true
     tools:
-      - DevOps
-      - Code Review
+      - MySQL
+      - SQL Server
+      - Oracle
+      - SQLite
+  - category: Version Control Systems
+    show-level: False # Default true
+    tools:
       - Git
-      - Unit Testing
-      - Wireframing
-      - Sketch
-      - Balsamiq
-      - WordPress
-      - Shopify
+      - Gerrit
+      - Perforce
+      - TFS
