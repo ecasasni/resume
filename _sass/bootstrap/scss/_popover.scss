@@ -1,4 +1,4 @@
-@use "sass:math";
+// Uses `/` division for LibSass compatibility (GitHub Pages / Jekyll sassc).
 
 .popover {
   position: absolute;
@@ -115,7 +115,7 @@
     left: 50%;
     display: block;
     width: $popover-arrow-width;
-    margin-left: math.div($popover-arrow-width, -2);
+    margin-left: ($popover-arrow-width / -2);
     content: "";
     border-bottom: $popover-border-width solid $popover-header-bg;
   }
