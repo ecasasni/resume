@@ -38,6 +38,9 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  # Vendored Bootstrap 4.x uses / for division; Dart Sass deprecates that outside calc().
+  silence_deprecations:
+    - slash-div
 
 # Build settings
 compress-site: yes
